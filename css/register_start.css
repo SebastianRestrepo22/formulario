@@ -1,0 +1,82 @@
+h1{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-image: url(../multimedia/agujero-negro.jpg);
+    width: 100%;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+p{
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+.form_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    margin-bottom: 20px;
+    background-color: rgba(16, 16, 66, 0.459);
+    width: 400px;
+    border-radius: 10px;
+}
+
+label{
+    margin-left: 20px;
+    color: white;
+}
+
+input{
+    margin: 20px;
+    width: 360px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgba(99, 132, 134, 0.582);
+    border: none;
+}
+
+.genre{
+    color: white;
+    height: 20px;
+}
+
+.start{
+    background-color: rgba(16, 16, 66, 0.459);
+    border-radius: 10px;
+    width: 400px;
+}
+
+.botonR{
+    margin: 20px;
+    color: white;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    background-color: rgba(169, 169, 235, 0.582);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botonR:hover{
+    background-color: rgba(37, 37, 63, 0.644);
+}
+
+.fuente {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
